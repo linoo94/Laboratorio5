@@ -40,8 +40,6 @@ function consultar($sql, $cols_num) {
     }
 }
 
-/* Resto de tu código sigue igual */
-
 /* Función de retorno de datos AJAX */
 function AJAX($nombre, $mensaje) {
     if ($nombre != "" && $mensaje != "") {
